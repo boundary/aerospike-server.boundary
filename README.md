@@ -1,8 +1,25 @@
 # Boundary Plugin for Aerospike
 
+This plugin was contributed by Aerospike. It collects metrics from Aerospike DB. Currently Aerospike is natively supported only on Linux systems.  
+
+### Prerequisites
+
+|     OS    | Linux | Windows | SmartOS | OS X |
+|:----------|:-----:|:-------:|:-------:|:----:|
+| Supported |   v   |    -    |    -    |  -   |
 
 
-## Metrics
+|  Runtime | node.js | Python | Java |
+|:---------|:-------:|:------:|:----:|
+| Required |    +    |        |      |
+
+- [How to install node.js?](https://help.boundary.com/hc/articles/202360701)
+
+### Plugin Setup
+
+None
+
+### Metrics
 
 Sends the following metrics to Boundary:
 
