@@ -1,0 +1,258 @@
+{
+  "AEROSPIKE_AGGS": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of aggregation transactions.",
+    "displayName": "Aerospike Aggregations",
+    "displayNameShort": "ASD Aggr",
+    "unit": "number"
+  },
+  "AEROSPIKE_AGGS_ERR": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of failed aggregation transactions.",
+    "displayName": "Aerospike Aggregations ERR",
+    "displayNameShort": "ASD Aggr ERR",
+    "unit": "number"
+  },
+  "AEROSPIKE_AGGS_OK": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of successful aggregation transactions.",
+    "displayName": "Aerospike Aggregations OK",
+    "displayNameShort": "ASD Aggr OK",
+    "unit": "number"
+  },
+  "AEROSPIKE_CLIENTS": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "Number of connected clients.",
+    "displayName": "Aerospike Clients",
+    "displayNameShort": "ASD Clients",
+    "unit": "number"
+  },
+  "AEROSPIKE_MEM_TOTAL": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Bytes of memory allocated.",
+    "displayName": "Aerospike Memory Total",
+    "displayNameShort": "ASD Memory Total",
+    "unit": "bytecount"
+  },
+  "AEROSPIKE_MEM_USED": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Bytes of memory used.",
+    "displayName": "Aerospike Memory Used",
+    "displayNameShort": "ASD Memory Used",
+    "unit": "bytecount"
+  },
+  "AEROSPIKE_MEM_USED_DATA": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Bytes of memory used for data.",
+    "displayName": "Aerospike Memory Data",
+    "displayNameShort": "ASD Memory Data",
+    "unit": "bytecount"
+  },
+  "AEROSPIKE_MEM_USED_INDEX": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Bytes of memory used for primary index.",
+    "displayName": "Aerospike Memory Index",
+    "displayNameShort": "ASD Memory Index",
+    "unit": "bytecount"
+  },
+  "AEROSPIKE_MEM_USED_SINDEX": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Bytes of memory used for secondary index.",
+    "displayName": "Aerospike Memory SIndex",
+    "displayNameShort": "ASD Memory Sindex",
+    "unit": "bytecount"
+  },
+  "AEROSPIKE_OBJECTS": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "Number of objects.",
+    "displayName": "Aerospike Objects",
+    "displayNameShort": "ASD Objects",
+    "unit": "number"
+  },
+  "AEROSPIKE_OBJECTS_EVICTED": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of evicted objects.",
+    "displayName": "Aerospike Objects Evicted",
+    "displayNameShort": "ASD Objects Evict",
+    "unit": "number"
+  },
+  "AEROSPIKE_OBJECTS_EXPIRED": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of expired objects.",
+    "displayName": "Aerospike Objects Expired",
+    "displayNameShort": "ASD Objects Exp",
+    "unit": "number"
+  },
+  "AEROSPIKE_PROXIES": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of proxied transactions.",
+    "displayName": "Aerospike Proxies",
+    "displayNameShort": "ASD Proxies",
+    "unit": "number"
+  },
+  "AEROSPIKE_PROXIES_ERR": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of failed proxied transactions.",
+    "displayName": "Aerospike Proxies ERR",
+    "displayNameShort": "ASD Proxies ERR",
+    "unit": "number"
+  },
+  "AEROSPIKE_PROXIES_OK": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of successful proxied transactions.",
+    "displayName": "Aerospike Proxies OK",
+    "displayNameShort": "ASD Proxies OK",
+    "unit": "number"
+  },
+  "AEROSPIKE_QUERIES": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of query transactions.",
+    "displayName": "Aerospike Queries",
+    "displayNameShort": "ASD Queries",
+    "unit": "number"
+  },
+  "AEROSPIKE_QUERIES_ERR": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of failed query transactions.",
+    "displayName": "Aerospike Queries ERR",
+    "displayNameShort": "ASD Queries ERR",
+    "unit": "number"
+  },
+  "AEROSPIKE_QUERIES_OK": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of successful query transactions.",
+    "displayName": "Aerospike Queries OK",
+    "displayNameShort": "ASD Queries OK",
+    "unit": "number"
+  },
+  "AEROSPIKE_READS": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "Number of read transactions.",
+    "displayName": "Aerospike Reads",
+    "displayNameShort": "ASD Reads",
+    "unit": "number"
+  },
+  "AEROSPIKE_READS_64MS": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Percentage of read operations completed in more than 64ms",
+    "displayName": "Aerospike Read Latency > 64ms",
+    "displayNameShort": "ASD Read 64ms",
+    "unit": "percent"
+  },
+  "AEROSPIKE_READS_8MS": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Percentage of read operations completed in more than 8ms",
+    "displayName": "Aerospike Read Latency > 8ms",
+    "displayNameShort": "ASD Read 8ms",
+    "unit": "percent"
+  },
+  "AEROSPIKE_READS_ERR": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "Number of failed read transactions.",
+    "displayName": "Aerospike Reads ERR",
+    "displayNameShort": "ASD Reads ERR",
+    "unit": "number"
+  },
+  "AEROSPIKE_READS_OK": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "Number of successful read transactions.",
+    "displayName": "Aerospike Reads OK",
+    "displayNameShort": "ASD Reads OK",
+    "unit": "number"
+  },
+  "AEROSPIKE_READ_1MS": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "Percentage of read operations completed in less than 1ms",
+    "displayName": "Aerospike Read Latency < 1ms",
+    "displayNameShort": "ASD Read 1ms",
+    "unit": "percent"
+  },
+  "AEROSPIKE_TXNS": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "Number of transactions executed.",
+    "displayName": "Aerospike Transactions",
+    "displayNameShort": "ASD Txns",
+    "unit": "number"
+  },
+  "AEROSPIKE_TXNS_WAITING": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of transactions waiting.",
+    "displayName": "Aerospike Transactions Waiting",
+    "displayNameShort": "ASD Txns Waiting",
+    "unit": "number"
+  },
+  "AEROSPIKE_WRITES": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of write transactions.",
+    "displayName": "Aerospike Writes",
+    "displayNameShort": "ASD Writes",
+    "unit": "number"
+  },
+  "AEROSPIKE_WRITES_ERR": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Numer of failed write transactions.",
+    "displayName": "Aerospike Writes ERR",
+    "displayNameShort": "ASD Writes ERR",
+    "unit": "number"
+  },
+  "AEROSPIKE_WRITES_OK": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Number of successful write transactions.",
+    "displayName": "Aerospike Writes OK",
+    "displayNameShort": "ASD Writes OK",
+    "unit": "number"
+  },
+  "AEROSPIKE_WRITE_1MS": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "Percentage of write operations completed in less than 1ms",
+    "displayName": "Aerospike Write Latency < 1ms",
+    "displayNameShort": "ASD Write 1ms",
+    "unit": "percent"
+  },
+  "AEROSPIKE_WRITE_64MS": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Percentage of write operations completed in more than 64ms",
+    "displayName": "Aerospike Write Latency > 64ms",
+    "displayNameShort": "ASD Write 64ms",
+    "unit": "percent"
+  },
+  "AEROSPIKE_WRITE_8MS": {
+    "defaultAggregate": "avg",
+    "defaultResolutionMS": 1000,
+    "description": "Percentage of write operations completed in more than 8ms",
+    "displayName": "Aerospike Write Latency > 8ms",
+    "displayNameShort": "ASD Write 8ms",
+    "unit": "percent"
+  }
+}
